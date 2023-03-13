@@ -20,7 +20,7 @@
 }
 
 body {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .container {
@@ -158,12 +158,15 @@ body {
     z-index: 0;
 }
 
-.hero__title {
+.general__heading {
     text-transform: uppercase;
-    font-family: "Yeseva One";
+    font-family: 'Yeseva One';
     font-size: 40px;
     line-height: 53px;
     color: #FFFFFF;
+}
+
+.hero__title {
     margin: 0px 0px 10px;
     z-index: 2;
 }
@@ -199,7 +202,7 @@ body {
     margin: 0px 20px 0px 0px;
     color: #FFFFFF;
     text-transform: uppercase;
-    font-family: "Nunito Sans", sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-style: italic;
     font-weight: 400;
     font-size: 11px;
@@ -235,8 +238,6 @@ body {
 }
 
 .projects__title {
-    text-transform: uppercase;
-    font-family: "Yeseva One";
     font-style: normal;
     font-weight: 400;
     font-size: 27px;
@@ -247,7 +248,7 @@ body {
 }
 
 .projects__text {
-    font-family: "Nunito Sans";
+    /* font-family: 'Nunito Sans'; */
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -296,12 +297,10 @@ body {
 }
 
 .projects__link {
-    font-family: "Yeseva One";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    text-transform: uppercase;
     color: rgba(255, 255, 255, 0.3);
 }
 
