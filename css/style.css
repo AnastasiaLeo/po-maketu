@@ -143,7 +143,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     height: 707px;
-    padding: 194px 627px 194px 194px;
+    padding: 194px;
     z-index: 1;
 }
 
@@ -158,7 +158,7 @@ body {
     z-index: 0;
 }
 
-.hero__h1 {
+.hero__title {
     text-transform: uppercase;
     font-family: "Yeseva One";
     font-size: 40px;
@@ -168,11 +168,11 @@ body {
     z-index: 2;
 }
 
-.hero__h1_orange{
+.hero__title_orange{
     color: #E3B873;
 }
 
-.hero__h2 {
+.hero__text {
     font-size: 22px;
     color: #FFFFFF;
     margin: 9px 0px 21px;
@@ -213,4 +213,93 @@ body {
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
     border: 0px solid #E3B873;
     z-index: 3;
+}
+
+.projects {
+    background: #131313;
+    position: relative;
+    background-size: cover;
+}
+
+.projects__container {
+    display: flex;
+    flex-direction: row;
+    padding: 107px 135px 416px;
+}
+
+.projects__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 70px 0px 0px;
+}
+
+.projects__title {
+    text-transform: uppercase;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    color: #E3B873;
+    margin: 0px 0px 20px 0px;
+}
+
+.projects__text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.projects__about {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: repeat(2, 90px);
+    grid-gap: 34px;
+    margin: 42px 0px 0px;
+}
+
+.projects__name {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.projects__text_small {
+    font-size: 13px;
+    line-height: 21px;
+    margin: 0px 0px 9px 0px;
+}
+
+.projects__slider {
+    
+    margin: 47px;
+}
+
+.projects__list {
+    list-style: none;
+    text-align: left;
+}
+
+.projects__item {
+    display: inline;
+    padding: 0px 0px 6px;
+    margin: 0px 61px 0px 0px; 
+}
+
+.projects__picture {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects__link {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
 }

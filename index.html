@@ -35,10 +35,8 @@
     <main>
         <section class="hero">
             <div class="hero__container container"> 
-                    <!-- Лучше не использовать название тега в классе, так как тег может поменяться (исключение кнопка так как название и суть совпадает), а название должно отражать суть класса, в данном случае лучше было бы hero__title, hero__text, hero__caption и тому подобное -->
-                    <!-- С точки зрения семантики для текста всегда лучше использовать текстовые теги h1...h2, p, span, особенно если этот текст важен для seo или несет важную информацию -->
-                    <h1 class="hero__h1">Turnkey Repair in the <br>city of <span class="hero__h1 hero__h1_orange">Rostov-on-Don</h1>
-                    <h2 class="hero__h2">Get ready-made turnkey repairs on time<br>
+                    <h1 class="hero__title">Turnkey Repair in the <br>city of <span class="hero__title hero__title_orange">Rostov-on-Don</h1>
+                    <h2 class="hero__text">Get ready-made turnkey repairs on time<br>
                         with work time saving up to 45 days and 20% from<br>
                         cost of materials due to the organization of work</h2>
                     <div class="hero__cost">
@@ -48,6 +46,53 @@
                     
             </div>
         </section>
+        <section class="projects">
+            <div class="projects__container container">
+                <div class="projects__description">
+                    <div class="projects__begining">
+                        <h2 class="projects__title">Completed projects</h2>
+                        <p class="projects__text">Only a small part of the work performed by our company is presented<br>
+                            on the site. For 14 years on in the construction<br> 
+                            market we have made happy more than 1000 families</p>
+                    </div>
+                    <div class="projects__about">
+                        <div class="projects__about-example">
+                            <h3 class="projects__title projects__name">City:</h3>
+                            <p class="projects__text projects__text_small">Rostov-on-Don<br>LCD admiral</p>
+                        </div>
+                        <div class="projects__about-example">
+                            <h3 class="projects__title projects__name">apartment area:</h3>
+                            <p class="projects__text projects__text_small">81 m2</p>
+                        </div>
+                        <div class="projects__about-example">
+                            <h3 class="projects__title projects__name">Repair time:</h3>
+                            <p class="projects__text projects__text_small">3.5 months</p>
+                        </div>
+                        <div class="projects__about-example">
+                            <h3 class="projects__title projects__name">Repair Cost:</h3>
+                            <p class="projects__text projects__text_small">Upon request</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects__picture">
+                    <div class="projects__slider">
+                        <ul class="projects__list">
+                            <li class="projects__item">
+                                <a class="projects__link">Rostov-on-Don, Admiral</a>
+                            </li>
+                            <li class="projects__item">
+                                <a class="projects__link">Sochi Thieves</a>
+                            </li>
+                            <li class="projects__item">
+                                <a class="projects__link">Rostov-on-Don Patriotic</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="images/completed_project_pic.jpg" alt="Completed project picture">
+                </div>
+            </div>
+        </section>
+
     </main>
     
 </body>
